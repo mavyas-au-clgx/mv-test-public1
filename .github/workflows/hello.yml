@@ -1,0 +1,8 @@
+name: Hello World
+on: [push]
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello world action step
+        run: echo "Hello, world!"
